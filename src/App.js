@@ -1,24 +1,42 @@
-import logo from './logo.svg';
+
 import './App.css';
+import {TShirts,Shirts,Shoes} from './components/data';
+import Products from './components/Products';
+import {useState} from 'react'
+import Header from './components/Header';
 
 function App() {
+  const [tshirts] = useState(TShirts)
+  const [shirts] = useState(Shirts)
+  const [shoes] = useState(Shoes)
+  const [sort, setSort] = useState('')
+
+
+ const sorting =(e)=>{
+const sorting=e.target.value;
+
+const sortRes= tshirts.sort((a,b)=>{
+  if(sorting==='all'){
+    return a.id>b.id ?  1: -1
+  }
+  if(sorting==='low'){
+    return a.price>b.price ?  1: -1
+  }
+  if(sorting==='high'){
+    return a.price < b.price?  1: -1
+  }
+})
+setSort({
+    sort:sorting,
+    tshirts: sortRes
+})
+}
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Header sort={sort} sorting={sorting} />
+     <Products tshirts={tshirts} shirts={shirts} shoes={shoes} />
+    </>
   );
 }
 
