@@ -1,4 +1,4 @@
-export const TShirts=[
+export const Data=[
     {
         url: "https://media.istockphoto.com/photos/blank-black-tshirt-front-with-clipping-path-picture-id483960103?b=1&k=20&m=483960103&s=170667a&w=0&h=hNKNseCmaThTsh4i7Q3kHETlWo5Zi7Ogw-luVozfP_M=",
         id: "1",
@@ -78,19 +78,17 @@ export const TShirts=[
         description: 'Maroon',
         price: 9000,
         rating: 2.8
-    }
-]
-export const Shirts=[
+    },
     {
         url: "https://images.unsplash.com/photo-1527105199669-2ba6968dc271?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YmxhY2slMjBzaGlydHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-        id: "1",
+        id: "11",
         Product_title: 'Black Shirt',
         description: 'Black ',
         price: 2500,
         rating: 4
     },{
         url: "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHdoaXRlJTIwc2hpcnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-        id: "2",
+        id: "12",
         Product_title: 'White Shirt',
         description: 'White ',
         price: 1500,
@@ -98,7 +96,7 @@ export const Shirts=[
     },
     {
         url: "https://images.unsplash.com/photo-1589310243389-96a5483213a8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ymx1ZSUyMHNoaXJ0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-        id: "3",
+        id: "13",
         Product_title: 'Sky-Blue Shirt',
         description: 'Sky-Blue ',
         price: 1000,
@@ -106,7 +104,7 @@ export const Shirts=[
     },
     {
         url: "https://images.unsplash.com/photo-1594587639781-a68a2796bb90?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Z3JlZW4lMjBzaGlydHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-        id: "4",
+        id: "14",
         Product_title: 'Dark-Green Shirt',
         description: 'Dark-Green',
         price: 1800,
@@ -114,25 +112,22 @@ export const Shirts=[
     },
     {
         url: "https://images.unsplash.com/photo-1573931184347-e97eac05c061?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGdyZWVuJTIwc2hpcnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-        id: "5",
+        id: "15",
         Product_title: 'Green Shirt',
         description: 'Green ',
         price: 1200,
         rating: 4.8
-    }
-]
-
-export const Shoes=[
+    },
     {
         url: "https://media.istockphoto.com/photos/elegant-black-leather-shoes-picture-id172417586?b=1&k=20&m=172417586&s=170667a&w=0&h=D26AYo2w8U1729-GJ3swMOq5QfthijDxW6cjVCVGOU8=",
-        id: "1",
+        id: "16",
         Product_title: 'Black Shoes',
         description: 'Black ',
         price: 2500,
         rating: 4
     },{
         url: "https://media.istockphoto.com/photos/sneakers-picture-id482374216?b=1&k=20&m=482374216&s=170667a&w=0&h=1DOvWOJoD7x6fb0ErykTmFftmuETQt6vmN0KG7D7g6o=",
-        id: "2",
+        id: "17",
         Product_title: 'Violet Shoes',
         description: 'Violet ',
         price: 1500,
@@ -140,7 +135,7 @@ export const Shoes=[
     },
     {
         url: "https://media.istockphoto.com/photos/running-shoes-picture-id1249496770?b=1&k=20&m=1249496770&s=170667a&w=0&h=_SUv4odBqZIzcXvdK9rqhPBIenbyBspPFiQOSDRi-RI=",
-        id: "3",
+        id: "18",
         Product_title: 'Blue Shoes',
         description: 'Blue ',
         price: 1000,
@@ -148,7 +143,7 @@ export const Shoes=[
     },
     {
         url: "https://media.istockphoto.com/photos/isolated-brown-shoes-picture-id173839467?b=1&k=20&m=173839467&s=170667a&w=0&h=sZN38N7KZHNoNarXOEc55653ktXpIwByK5rEWeyuPcY=",
-        id: "4",
+        id: "19",
         Product_title: 'Brown Shoes',
         description: 'Brown',
         price: 1800,
@@ -156,11 +151,12 @@ export const Shoes=[
     },
     {
         url: "https://media.istockphoto.com/photos/sports-shoe-series-picture-id171148392?b=1&k=20&m=171148392&s=170667a&w=0&h=wAgSoTNUttUd-Zp8BWOAHeGqo-7cj94sOz9uKM6sPRk=",
-        id: "5",
+        id: "20",
         Product_title: 'Grey Shoes',
         description: 'Grey',
         price: 1200,
         rating: 4.8
     }
-    
 ]
+    
+

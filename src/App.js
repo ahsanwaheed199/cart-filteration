@@ -1,21 +1,19 @@
 
 import './App.css';
-import {TShirts,Shirts,Shoes} from './components/data';
+import {Data} from './components/data';
 import Products from './components/Products';
 import {useState} from 'react'
 import Header from './components/Header';
 
 function App() {
-  const [tshirts] = useState(TShirts)
-  const [shirts] = useState(Shirts)
-  const [shoes] = useState(Shoes)
+  const [item] = useState(Data)
   const [sort, setSort] = useState('')
 
 
  const sorting =(e)=>{
 const sorting=e.target.value;
 
-const sortRes= tshirts.sort((a,b)=>{
+const sortRes= item.sort((a,b)=>{
   if(sorting==='all'){
     return a.id>b.id ?  1: -1
   }
@@ -35,7 +33,7 @@ setSort({
   return (
     <>
     <Header sort={sort} sorting={sorting} />
-     <Products tshirts={tshirts} shirts={shirts} shoes={shoes} />
+     <Products items={item} />
     </>
   );
 }
